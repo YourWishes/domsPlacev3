@@ -1,0 +1,35 @@
+/*
+    Modals
+*/
+.modal {
+    > .modal-dialog {
+        > .modal-content {
+            border: none;
+            padding: 0;
+            box-shadow: none;
+            background:transparent;
+            
+            > .modal-header {
+                font-family: 'fippsregular', Arial, Helvetica, sans-serif;
+                background-repeat: repeat;
+                background-color: white;
+                @include bg-image-repeat('checkers.png');
+                padding: 6px 0px;
+                @include border-inner-image('border_3.png');
+                
+                > .close {
+                    margin-top: 0;
+                    margin-right: 6px;
+                }
+            }
+            
+            > .modal-body {
+                @include border-inner-image('border_3.png');
+                background:white;
+            }
+            
+            > .modal-footer {
+            }
+        }
+    }
+}

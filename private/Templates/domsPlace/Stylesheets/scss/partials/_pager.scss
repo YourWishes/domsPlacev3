@@ -1,0 +1,29 @@
+.pager {
+    > li {
+        > a {
+            padding: 0;
+            background-position: center;
+            border: 8px solid pink;
+            color: white;
+            font-weight: bold;
+            @include border-image('border_3.png');
+            @include bg-image-repeat('button_bg.png');
+            padding: 0;
+
+            &:hover {
+                @include border-image('border_4.png');
+                color: #DDD;
+                @include bg-image-repeat('button_bg_2.png');
+            }
+        }
+
+        &.disabled {
+            > a {
+                @include border-image('border_10.png');
+                &:hover {
+                    @include bg-image-repeat('button_bg.png');
+                }
+            }
+        }
+    }
+}

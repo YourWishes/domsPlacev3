@@ -1,0 +1,86 @@
+<h2>Dominic Masters<br/><small>Programmer by choice, nerd by chance</small></h2>
+<hr />
+<p>
+	Hello, and welcome to domsPlace, my place on the internet.
+</p>
+
+<p>
+	As suggested above, my name is Dominic Masters, I am a 21-year-old programmer from Australia.<br />
+</p>
+
+<p>
+	I have been programming as long as I can remember, dating back to before high school, and enjoy it immensely.
+	Long stories aside I have dedicated this website as a portfolio of me, my projects, my interests and my personal blog.
+</p>
+
+<p>
+	Since 2011 I have been developing websites professionally, and first developed this website back in early 2013.
+	Since then I have completely rewritten the site twice, however, short of any major breakthroughs in web technologies I
+	have settled on this as the final platform for the site. <br />
+</p>
+
+<p>
+	For information on how to contact me please refer to the contact form below.
+</p>
+
+<hr />
+<h3>Programming</h3>
+<hr />
+<p>
+	Below is an incomplete list of languages I know. Why incomplete? Programming is a skill that I am forever developing, as well
+	as being a skill that I am fortunate enough to be able to develop quickly.
+</p>
+<ul>
+	<li>Java</li>
+	<li>OpenGL and other Graphics Libaries</li>
+	<li>
+		Web Technologies
+		<ul>
+			<li>
+				HTML, XHTML, HTML5 and countless HTML engines, such as NETO and Meteor
+			</li>
+			<li>
+				PHP, ASP and many libraries for these languages such as WordPress, Drupal, PHPBB, Xenforo&hellip;
+			</li>
+			<li>
+				CSS/SCSS/LESS and many CSS Libraries such as bootstrap
+			</li>
+			<li>
+				JavaScript and other JS Libraries such as AngularJS and jQuery
+			</li>
+			<li>
+				NodeJS (Including some extensions such as Cordova, Ionic, PhoneGap, Meteor and MongoDB to name a few)
+			</li>
+		</ul>
+	</li>
+	<br />
+	<li>
+		Database Languages (and general Database Administration)
+	</li>
+	<li>
+		.NET languages, particularly C# and VB/VB Script/VBA etc.
+	</li>
+	<li>
+		Lua, Python and other scripted languages
+	</li>
+	<li>
+		ActionScript 2.0/3.0 and basic Animation in Adobe Flash.
+	</li>
+	<li>
+		Countless APIs and markup languages
+	</li>
+</ul>
+
+<hr />
+<h3>Skills</h3>
+<hr />
+<p>
+	As with programming I have developed many skills around IT, I could never list them all so I will do my best to write a few of them down below.<br />
+</p>
+<p>
+	<small>
+		Video Editing, Sound Editing, Image Editing, Database Administration, Server and Systems Administration, Hardware repair and issue diagnosis, Software maintenence,
+		Technical Support, Help Desk, Backups, Project Management, Team Leading, Documentation and Standards Development, Web Design, Web Development, Client Relations,
+		Decision Systems, Game Development and Design, Security and penetration testing, Complex understanding of low level computing operations, Marketing and Advertising, the list goes on.
+	</small>
+</p>

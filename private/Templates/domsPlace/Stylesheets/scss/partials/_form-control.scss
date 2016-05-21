@@ -1,0 +1,19 @@
+.form-control {
+    @include border-image('border_2.png');
+    padding: 0;
+    box-shadow: none;
+    &:focus {
+        @include border-image('border_5.png');
+        box-shadow: none;
+    }
+    &.success,
+    &:focus.success{
+        @include border-image('border_6.png');
+    }
+}
+    
+textarea {
+    &.form-control {
+        resize:vertical;
+    }
+}

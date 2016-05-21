@@ -1,0 +1,77 @@
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .active > a {
+    
+}
+.navbar-brand,
+.navbar-nav > li > a {
+    
+}
+.navbar-static-top,
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+    
+}
+@media #{$target_mobile} {
+    .navbar .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+
+    }
+}
+
+.navbar {   
+    margin: 0;
+    
+    .logo {
+        @include bg-image-repeat('domsplace.png');
+        display: block;
+        height: 40px;
+        width: 192px;
+        background-position: 0px 0px;
+        &:hover {
+            background-position: 0px 40px;
+        }
+    }
+    
+    .nav-links {
+        text-align: right;
+    }
+    
+    .btn {
+        margin: 2px;
+        
+        > .btn-inner {
+            transition: width 0.2s ease-in-out;
+        }
+    }
+    
+    .login-form {
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        width: 1px;
+        white-space: nowrap;
+        vertical-align: middle;
+        
+        .form-control {
+            display: inline-block;
+            width: 164px;
+            clear: none;
+            vertical-align: middle;
+            
+            &:first-of-type {
+                margin-right: 4px;
+            }
+        }
+        
+        &.open {
+        }
+    }
+    
+    &.navbar-default {
+        @include border-image('border.png');
+        @include bg-image-repeat('navbar_bg.png');
+        background-position: center;
+    }
+}

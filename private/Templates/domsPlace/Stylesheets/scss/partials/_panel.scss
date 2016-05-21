@@ -1,0 +1,123 @@
+.panel {
+    position: relative;
+
+    &.panel-nomargin {
+        > .panel-body {
+            margin: 0;
+        }
+    }
+
+    > .panel-heading {
+        font-family: 'fippsregular', Arial, Helvetica, sans-serif;
+        padding: 6px 0px;
+        position: relative;
+        @include bg-image-repeat('checkers.png');
+
+        > a {
+            color: black;
+        }
+
+        > .panel-buttons {
+            position: absolute;
+            right: -$border-image-margin;
+            top: -$border-image-margin;
+            height: 100%;
+
+            > .btn {
+                height: 48px;
+            }
+        }
+    }
+
+    > .panel-body {
+        @extend .offset-border-image-margin;
+        padding: 0;
+        text-align: justify;
+
+        > .profile {
+            @include bg-gradient-t2b($domsplace_blue_light, $domsplace_blue);
+            @extend .user-borders;
+
+            float: left;
+            margin-left: -$border-image-margin;
+            margin-right: $border-image-margin;
+            margin-bottom: $border-image-margin;
+            padding: 2px;
+            background-repeat: repeat;
+            @include bg-image-repeat('checkers.png');
+        }
+    }
+
+    > .panel-footer {
+        background-repeat: repeat;
+        @include bg-image-repeat('checkers.png');
+        padding: 0;
+        font-size: 0.8em;
+    }
+}
+.panel-danger {
+    @include border-image('border_4.png');
+
+    > .panel-heading {
+        @include border-inner-image('border_4.png');
+        background-color: #f2dede;
+    }
+
+    > .panel-footer {
+        @include border-inner-image('border_4.png');
+        background-color: #f2dede;
+    }
+}
+.panel-default {
+    @include border-image('border_2.png');
+    > .panel-heading {
+        @include border-inner-image('border_2.png');
+        background-color: $domsplace_blue_light;
+    }
+
+    > .panel-footer {
+        @include border-inner-image('border_2.png');
+        background-color: lighten($domsplace_blue_light, 20%);
+    }
+}
+
+.panel-default > .panel-heading {
+    /*background-image: -webkit-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+    background-image:      -o-linear-gradient(top, #f5f5f5 0%, #e8e8e8 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#e8e8e8));
+    background-image:         linear-gradient(to bottom, #f5f5f5 0%, #e8e8e8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+    background-repeat: repeat-x;*/
+}
+.panel-primary > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image:      -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#2e6da4));
+    background-image:         linear-gradient(to bottom, #337ab7 0%, #2e6da4 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff2e6da4', GradientType=0);
+    background-repeat: repeat-x;
+}
+.panel-success > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);
+    background-image:      -o-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#dff0d8), to(#d0e9c6));
+    background-image:         linear-gradient(to bottom, #dff0d8 0%, #d0e9c6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffd0e9c6', GradientType=0);
+    background-repeat: repeat-x;
+}
+.panel-info > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);
+    background-image:      -o-linear-gradient(top, #d9edf7 0%, #c4e3f3 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#d9edf7), to(#c4e3f3));
+    background-image:         linear-gradient(to bottom, #d9edf7 0%, #c4e3f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffc4e3f3', GradientType=0);
+    background-repeat: repeat-x;
+}
+.panel-warning > .panel-heading {
+    background-image: -webkit-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);
+    background-image:      -o-linear-gradient(top, #fcf8e3 0%, #faf2cc 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fcf8e3), to(#faf2cc));
+    background-image:         linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fffaf2cc', GradientType=0);
+    background-repeat: repeat-x;
+}

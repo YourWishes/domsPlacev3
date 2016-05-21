@@ -1,0 +1,7 @@
+.user-borders {
+    @include border-image('border_2.png');
+    
+    &.online {
+        @include border-image('border_7.png');
+    }
+}

@@ -1,0 +1,7 @@
+@mixin bg-image($name) {
+    background-image: url('#{$image_root}#{$name}');
+}
+@mixin bg-image-repeat($name) {
+    background-image: url('#{$image_root}#{$name}');
+    background-repeat: repeat;
+}

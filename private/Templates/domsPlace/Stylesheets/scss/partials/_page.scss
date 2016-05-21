@@ -1,0 +1,13 @@
+.body-col {
+}
+
+/* Navbar Fix */
+body {
+    /*padding-top: 70px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    @include bg-image-repeat('bg.png');
+    background-repeat: repeat;
+    background-attachment:fixed;
+    overflow-x: hidden;
+}

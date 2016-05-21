@@ -1,0 +1,32 @@
+body {
+    background: rgb(204,204,204); 
+}
+
+.page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    position: relative;
+    padding: 0.5cm;
+}
+
+@media #{$target_printer} {
+    body {
+        box-shadow: none;
+    }
+    
+    .page {
+        box-shadow: none;
+    }
+}
+
+@page {
+    size: 21cm 29.7cm;
+    margin: 0;
+    padding: 0;
+}
+
+@import 'a4.scss';
+@import 'typography.scss';

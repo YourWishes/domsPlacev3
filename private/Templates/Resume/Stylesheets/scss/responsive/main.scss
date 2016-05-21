@@ -1,0 +1,13 @@
+@import 'size_definitions.scss';
+
+.img-responsive {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.hide-print {
+    @media #{$target_printer} {
+        display: none;
+    }
+}

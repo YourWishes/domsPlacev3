@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+@import 'variables.scss';
+
+@import 'responsive/main.scss';
+
+@import 'page/main.scss';
+
+@import 'grid/main.scss';
+
+@import 'components/panel.scss';
+@import 'components/chart.scss';

@@ -1,0 +1,67 @@
+$margin_common: 4px;
+
+a {
+    color: $lightblue;
+    text-decoration: none;
+    
+    &:active, &:hover {
+        color: lighten($lightblue, 25%);
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+
+h1 {
+    font-size: 2.75em;
+    padding: 0;
+    border-bottom: 3px dashed darken($indigo, 15%);
+    border-top: 3px dashed darken($indigo, 25%);
+    margin: 8px 14px $margin_common $margin_common;
+    color: $indigo;
+    //font-family: "Varela Round", Tahoma, Geneva, sans-serif;
+    font-family: "Oswald";
+    
+    &.person-name {
+        border: none;   
+    }
+}
+
+h2 {
+    font-size: 2.25em;
+    padding: 0;
+    margin: 0;
+    border-bottom: 3px dashed darken($indigo, 15%);
+    border-top: 3px dashed darken($indigo, 25%);
+    margin: 8px 14px $margin_common $margin_common;
+    padding: 0.24em;
+    color: $indigo;
+    //font-family: "Varela Round", Tahoma, Geneva, sans-serif;
+    font-family: "Oswald";
+}
+
+p {
+    margin: 0;
+    margin: 0px $margin_common;
+    text-align: justify;
+    font-size: 0.9em;
+}
+small {
+    margin: 0 $margin_common;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+    list-style-type: square;
+    
+    > li {
+    }
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 2px dashed darken($indigo, 15%);
+}

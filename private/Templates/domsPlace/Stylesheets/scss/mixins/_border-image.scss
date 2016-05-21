@@ -1,0 +1,26 @@
+$border-image-margin: 8px;
+
+@mixin border-image($img) {
+    //CT#)Yy^q>j%Kx~8L
+    border: $border-image-margin solid pink;
+    -webkit-border-image: url(#{$image_root}#{$img}) 8;
+         -o-border-image: url(#{$image_root}#{$img}) 8;
+            border-image: url(#{$image_root}#{$img}) 8;
+}
+@mixin border-bottom-image($img) {
+    //CT#)Yy^q>j%Kx~8L
+    border-bottom: $border-image-margin solid pink;
+    -webkit-border-image: url(#{$image_root}#{$img}) 8;
+         -o-border-image: url(#{$image_root}#{$img}) 8;
+            border-image: url(#{$image_root}#{$img}) 8;
+}
+
+@mixin border-inner-image($img) {
+    @include border-image($img);
+    margin: -8px;
+}
+
+.offset-border-image-margin {
+    margin-top: $border-image-margin;
+    margin-bottom: $border-image-margin;
+}
